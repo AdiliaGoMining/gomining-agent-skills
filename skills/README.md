@@ -9,7 +9,8 @@ This directory contains agent skills for the GoMining ecosystem. Each skill prov
 | Skill | Description | Use When |
 |-------|-------------|----------|
 | [`gomining-overview`](gomining-overview/SKILL.md) | Platform introduction and ecosystem basics | User asks "What is GoMining?" or needs general orientation |
-| [`gomining-miners`](gomining-miners/SKILL.md) | Digital Miners, mining modes, Miner Wars, blockchain networks, rarity | User asks about miners, mining rewards, Miner Wars, blockchain networks, or rarity |
+| [`gomining-miners`](gomining-miners/SKILL.md) | Digital Miners, Mining Mode, blockchain networks, rarity, buying/selling | User asks about miners, daily BTC rewards, blockchain networks, or rarity |
+| [`gomining-miner-wars`](gomining-miner-wars/SKILL.md) | Miner Wars game — clans, leagues, spells, weekly cycles, BTC + GOMINING rewards | User asks about Miner Wars, clans, spells, leagues, or game mechanics |
 | [`gomining-avatars`](gomining-avatars/SKILL.md) | Avatar collections, Luminars, marketplace, merch | User asks about avatars, Luminars, or merch |
 | [`gomining-vip`](gomining-vip/SKILL.md) | VIP tiers, thresholds, benefits | User asks about VIP levels, maintenance discounts, or perks |
 
@@ -52,7 +53,10 @@ User Question                              Recommended Skill
 "What is GoMining?"                    →   gomining-overview
 "How do Digital Miners work?"          →   gomining-miners
 "How do I buy a miner?"               →   gomining-miners
-"What are Miner Wars?"                →   gomining-miners
+"What are Miner Wars?"                →   gomining-miner-wars
+"How do clans work?"                   →   gomining-miner-wars
+"What are spells / power-ups?"        →   gomining-miner-wars
+"What leagues exist in Miner Wars?"    →   gomining-miner-wars
 "What are avatar collections?"         →   gomining-avatars
 "What are Luminars?"                   →   gomining-avatars
 "What blockchains are supported?"      →   gomining-miners

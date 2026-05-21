@@ -13,16 +13,16 @@ Platform overview and getting started guide — start here for ecosystem basics.
 - [SKILL.md](../skills/gomining-overview/SKILL.md)
 
 ### gomining-miners
-Digital Miners NFTs — NFT-based ownership of data center computing power for BTC mining. Covers supported blockchains (Ethereum, BSC, Solana, TON), Mining Mode and Miner Wars game mode, computing power and hashrate, upgrades, maintenance costs and discounts, buying and selling miners, reinvestment options, and reward mechanics.
+Digital Miners NFTs — NFT-based ownership of data center computing power for BTC mining. Covers supported blockchains (Ethereum, BSC, Solana, TON), Mining Mode (passive daily BTC), computing power and hashrate, upgrades, maintenance costs and discounts, buying and selling miners, reinvestment options, and reward mechanics. **For the Miner Wars game (clans, spells, leagues, weekly cycles), see `gomining-miner-wars`.**
 - [SKILL.md](../skills/gomining-miners/SKILL.md)
+
+### gomining-miner-wars
+Miner Wars — free, competitive blockchain-based game with clan battles (BTC rewards) and personal competitions (GOMINING rewards). Covers Points-per-second (PPS) mechanics, 4 leagues (Odyssey/Eclipse/Horizon/Dune), weekly cycles tied to Bitcoin blocks, round multipliers up to x256, Clan creation (Gold I+ VIP, 5% royalties), spells and power-ups (Instant/Power/Echo/Focus/Clan Power-up/Miner Service), Spell Bot automation, Platinum+ 15% spell discount, anti-cheat rules (League Hopping/Clan Cycling bans), and cross-effects with VIP, GOMINING token, Bonus Miner, and referral program.
+- [SKILL.md](../skills/gomining-miner-wars/SKILL.md)
 
 ### gomining-avatars
 Avatar collections — cosmetic NFTs assignable to Digital Miners. Covers the four avatar races (Humans, Sentinels, Cryptiles, Luminars), Luminar VIP level boost rules, secondary marketplace for miners and avatars, and branded merchandise.
 - [SKILL.md](../skills/gomining-avatars/SKILL.md)
-
-### gomining-nft
-Digital Miners NFT collections — NFTs representing ownership in Bitcoin mining infrastructure. Covers NFT definition and blockchain distribution (Ethereum, BSC, Solana, TON), BMINE issuer, daily BTC rewards mechanism, 12 rarity attributes, Mining mode vs Miner Wars mode, accessing miners via GoMining account or external wallets (MetaMask, Trust Wallet, Phantom, Tonkeeper), and marketplace trading.
-- [SKILL.md](../skills/gomining-nft/SKILL.md)
 
 ### gomining-vip
 VIP loyalty program — tiered benefits system based on hashrate (TH) or veGOMINING votes. Covers tier progression from Bronze I through Elite, maintenance discounts, Launchpad access tiers, Reinvestment bonuses, Clan creation in Miner Wars, dedicated VIP managers, card cashback rates (0.5%-5%), travel cashback rates (1%-4%), and Simple Earn multipliers.

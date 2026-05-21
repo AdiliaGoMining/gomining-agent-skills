@@ -1,6 +1,6 @@
 ---
 name: gomining-miners
-description: "GoMining Digital Miners — tokenized assets representing ownership in Bitcoin mining infrastructure. Covers miner definition and blockchain distribution (Ethereum, BSC, Solana, TON), BMINE issuer, daily BTC rewards mechanism, 12 rarity attributes, Mining mode vs Miner Wars mode, accessing miners via GoMining account or external wallets (MetaMask, Trust Wallet), and marketplace trading."
+description: "GoMining Digital Miners — tokenized assets representing ownership in Bitcoin mining infrastructure. Covers miner definition and blockchain distribution (Ethereum, BSC, Solana, TON), BMINE issuer, daily BTC rewards mechanism, 12 rarity attributes, Mining mode (passive daily BTC) and Miner Wars mode (game — see gomining-miner-wars skill for the full game), accessing miners via GoMining account or external wallets (MetaMask, Trust Wallet), and marketplace trading."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -139,9 +139,11 @@ Digital Miners support two distinct earning modes:
 | Aspect | Description |
 |--------|-------------|
 | Activation | Switch from Mining mode in settings |
-| Rewards | Game-based rewards through gameplay |
-| Boosts | GOMINING tokens can activate boosts |
-| Active | Requires player participation |
+| Rewards | Game-based rewards (BTC in clan battles + GOMINING in personal battles) |
+| Boosts | GOMINING tokens activate spells / power-ups |
+| Active | Requires Clan membership and gameplay |
+
+> Full game mechanics, Clans, Spells, leagues, rewards, and cross-skill effects are documented in the dedicated **[gomining-miner-wars](../gomining-miner-wars/SKILL.md)** skill.
 
 ---
 
@@ -230,11 +232,7 @@ Purchasing activates Mining mode, generating accumulated BTC rewards for withdra
 - [FAQ: Mining Mode](references/FAQ-MINING-MODE.md) — Mining mode explained, rewards, and settings
 - [FAQ: Miner Subscriptions](references/FAQ-SUBSCRIPTIONS.md) — Subscription-based miner options
 - [FAQ: Rarity and Achievements](references/FAQ-RARITY.md) — Miner rarity attributes and achievement system
-- [FAQ: Rewards](references/FAQ-REWARDS.md) — How mining rewards are calculated and distributed
-- [FAQ: Miner Wars Overview](references/MINER-WARS.md) — Introduction to the Miner Wars game mode
-- [FAQ: Miner Wars Clans](references/MINER-WARS-CLANS.md) — Clan system, creation, and royalties
-- [FAQ: Miner Wars Game Mechanics](references/MINER-WARS-MECHANICS.md) — Game rules, cycles, and scoring
-- [FAQ: Miner Wars Spells and Power-ups](references/MINER-WARS-SPELLS.md) — Boosts, spells, and power-up mechanics
+- [FAQ: Rewards](references/FAQ-REWARDS.md) — How mining rewards are calculated and distributed (Mining Mode and Miner Wars cross-reference)
 - [How-to: Miner Instructions Overview](references/INSTRUCTION-OVERVIEW.md) — Overview of miner how-to guides
 - [How-to: Activate a Miner from Getgems](references/INSTRUCTION-ACTIVATE-GETGEMS.md) — Step-by-step guide to activating a TON miner from Getgems
 - [FAQ: Subscriptions Overview](references/FAQ-SUBSCRIPTIONS-OVERVIEW.md) — Overview of GoMining subscription products

@@ -12,7 +12,8 @@ Agent skills for **GoMining** — a blockchain platform democratizing Bitcoin mi
 | Skill | Description | Use When |
 |-------|-------------|----------|
 | [`gomining-overview`](skills/gomining-overview/SKILL.md) | Platform introduction, ecosystem basics | "What is GoMining?" |
-| [`gomining-miners`](skills/gomining-miners/SKILL.md) | Digital Miners, mining modes, Miner Wars | "How do miners work?" |
+| [`gomining-miners`](skills/gomining-miners/SKILL.md) | Digital Miners, Mining Mode, buying/selling, upgrades | "How do miners work?" |
+| [`gomining-miner-wars`](skills/gomining-miner-wars/SKILL.md) | Miner Wars game — clans, spells, leagues, rewards | "What are Miner Wars?" |
 | [`gomining-avatars`](skills/gomining-avatars/SKILL.md) | Avatar collections, Luminars, merch, marketplace | "What are avatar races?" |
 | [`gomining-vip`](skills/gomining-vip/SKILL.md) | VIP tiers, thresholds, benefits | "What are VIP levels?" |
 
@@ -107,10 +108,11 @@ console.log(manifest.skills); // Array of all skills with metadata
 │   └── AGENTS.md                  # Agent skills description for LLM agents
 └── skills/
     ├── README.md                  # Skills overview and selection guide
-    ├── gomining-overview/         # 15 skill directories, each containing:
+    ├── gomining-overview/         # 16 skill directories, each containing:
     ├── gomining-miners/           #   ├── SKILL.md        (main skill file)
-    ├── gomining-avatars/          #   ├── skill.json      (metadata & triggers)
-    ├── gomining-vip/              #   └── references/     (supporting docs)
+    ├── gomining-miner-wars/       #   ├── skill.json      (metadata & triggers)
+    ├── gomining-avatars/          #   └── references/     (supporting docs)
+    ├── gomining-vip/
     ├── gomining-token/
     ├── gomining-tokenomics/
     ├── gomining-wallet/
