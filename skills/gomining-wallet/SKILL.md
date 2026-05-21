@@ -1,6 +1,6 @@
 ---
 name: gomining-wallet
-description: "GoMining Wallet — custodial cryptocurrency wallet powered by Fireblocks. Covers supported assets and networks (BTC, GMT/GOMINING, USDT, USDC, ETH, BNB, SOL, TON), deposit and withdrawal parameters (minimum amounts, network fees, daily limits), KYC Level-1 requirements for full access, withdrawal processing times (new users 15 min, established 2 min), and BTC withdrawal rules tied to mining rewards."
+description: "GoMining Wallet — custodial cryptocurrency wallet. Covers supported assets and networks (BTC, GMT/GOMINING, USDT, USDC, ETH, BNB, SOL, TON), deposit and withdrawal parameters (minimum amounts, network fees, daily limits), KYC Level-1 requirements for full access, withdrawal processing times (new users 15 min, established 2 min), and BTC withdrawal rules tied to mining rewards."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -11,7 +11,6 @@ metadata:
     - crypto
     - deposit
     - withdrawal
-    - fireblocks
     - custodial
     - kyc
   triggers:
@@ -29,7 +28,7 @@ metadata:
 
 ## Overview
 
-The GoMining Wallet is a custodial cryptocurrency wallet integrated with Fireblocks, available to all registered GoMining users. It enables depositing, storing, and withdrawing a range of crypto assets across multiple blockchain networks.
+The GoMining Wallet is a custodial cryptocurrency wallet available to all registered GoMining users. It enables depositing, storing, and withdrawing a range of crypto assets across multiple blockchain networks.
 
 ---
 
@@ -83,8 +82,8 @@ The GoMining Wallet is a custodial cryptocurrency wallet integrated with Fireblo
 
 | KYC Status | Capabilities |
 |------------|-------------|
-| **Without KYC Level-1** | Basic deposits only. No withdrawal of GOMINING, USDT, USDC, BTC (instant). No NFT operations. No marketplace sales. |
-| **With KYC Level-1** | Full access to all wallet features, withdrawals, NFT operations, and marketplace. |
+| **Without KYC Level-1** | Basic deposits only. No withdrawal of GOMINING, USDT, USDC, BTC (instant). No miner operations. No marketplace sales. |
+| **With KYC Level-1** | Full access to all wallet features, withdrawals, miner operations, and marketplace. |
 
 ---
 
@@ -103,12 +102,6 @@ The GoMining Wallet is a custodial cryptocurrency wallet integrated with Fireblo
 |-----------|-------------------|
 | Before any BTC deposit | Cannot withdraw mining or game rewards. Access opens after creating a personal miner. |
 | After BTC deposit | Can withdraw amounts exceeding accumulated mining rewards. |
-
----
-
-## Fireblocks Architecture
-
-The GoMining Wallet is a custodial solution. Private keys are managed by Fireblocks on behalf of users.
 
 ---
 
@@ -150,7 +143,7 @@ The GoMining Wallet is a custodial solution. Private keys are managed by Fireblo
 
 ### What is the GoMining Wallet?
 
-A custodial cryptocurrency wallet powered by Fireblocks, allowing registered users to deposit, store, and withdraw crypto assets across multiple blockchain networks.
+A custodial cryptocurrency wallet allowing registered users to deposit, store, and withdraw crypto assets across multiple blockchain networks.
 
 ### What assets and networks are supported?
 
@@ -158,7 +151,7 @@ BTC (Bitcoin), GMT/GOMINING (Ethereum, BSC, Solana, TON), USDT (ERC-20, BEP-20, 
 
 ### Do I need KYC to use the wallet?
 
-Basic deposits work without KYC. However, KYC Level-1 is required for withdrawing GOMINING, USDT, USDC, and BTC (instant), as well as for NFT operations and marketplace sales.
+Basic deposits work without KYC. However, KYC Level-1 is required for withdrawing GOMINING, USDT, USDC, and BTC (instant), as well as for miner operations and marketplace sales.
 
 ### What are the withdrawal limits?
 
@@ -178,7 +171,7 @@ Network fees vary by asset and blockchain. There are no additional GoMining serv
 
 ### Is the wallet custodial?
 
-Yes. GoMining Wallet is a custodial solution powered by Fireblocks. Private keys are managed by Fireblocks on behalf of users.
+Yes. The GoMining Wallet is a custodial solution. Private keys are not held by the user directly.
 
 ---
 

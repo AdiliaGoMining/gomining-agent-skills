@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-v1.0-green.svg)](https://agentskills.io)
 
-Agent skills for **GoMining** — a blockchain platform democratizing Bitcoin mining through Digital Miners NFTs, the GOMINING utility token, crypto-powered Visa cards, DeFi products, and travel integrations.
+Agent skills for **GoMining** — a blockchain platform democratizing Bitcoin mining through Digital Miners, the GOMINING utility token, crypto-powered Visa cards, DeFi products, and travel integrations.
 
 ## Skills
 
@@ -12,9 +12,9 @@ Agent skills for **GoMining** — a blockchain platform democratizing Bitcoin mi
 | Skill | Description | Use When |
 |-------|-------------|----------|
 | [`gomining-overview`](skills/gomining-overview/SKILL.md) | Platform introduction, ecosystem basics | "What is GoMining?" |
-| [`gomining-miners`](skills/gomining-miners/SKILL.md) | Digital Miners, mining modes, Miner Wars | "How do miners work?" |
+| [`gomining-miners`](skills/gomining-miners/SKILL.md) | Digital Miners, Mining Mode, buying/selling, upgrades | "How do miners work?" |
+| [`gomining-miner-wars`](skills/gomining-miner-wars/SKILL.md) | Miner Wars game — clans, spells, leagues, rewards | "What are Miner Wars?" |
 | [`gomining-avatars`](skills/gomining-avatars/SKILL.md) | Avatar collections, Luminars, merch, marketplace | "What are avatar races?" |
-| [`gomining-nft`](skills/gomining-nft/SKILL.md) | NFT technical details, blockchains, rarity | "What blockchains are supported?" |
 | [`gomining-vip`](skills/gomining-vip/SKILL.md) | VIP tiers, thresholds, benefits | "What are VIP levels?" |
 
 ### Token & Economics
@@ -49,6 +49,14 @@ Agent skills for **GoMining** — a blockchain platform democratizing Bitcoin mi
 | [`gomining-investment-guide`](skills/gomining-investment-guide/SKILL.md) | Budget-tier recommendations, ROI examples, optimization | "What can I do with $100?" |
 
 ## Installation
+
+### Prerequisites
+
+- **Node.js** v18+ — required for `npx` commands: [nodejs.org](https://nodejs.org/)
+- **Claude Code** — required for the `claude` CLI:
+  ```bash
+  npm install -g @anthropic-ai/claude-code
+  ```
 
 ### Claude Code
 
@@ -102,8 +110,8 @@ console.log(manifest.skills); // Array of all skills with metadata
     ├── README.md                  # Skills overview and selection guide
     ├── gomining-overview/         # 16 skill directories, each containing:
     ├── gomining-miners/           #   ├── SKILL.md        (main skill file)
-    ├── gomining-avatars/          #   ├── skill.json      (metadata & triggers)
-    ├── gomining-nft/              #   └── references/     (supporting docs)
+    ├── gomining-miner-wars/       #   ├── skill.json      (metadata & triggers)
+    ├── gomining-avatars/          #   └── references/     (supporting docs)
     ├── gomining-vip/
     ├── gomining-token/
     ├── gomining-tokenomics/
@@ -128,7 +136,7 @@ console.log(manifest.skills); // Array of all skills with metadata
 │  ┌───────────┐  ┌───────────┐  ┌───────────┐  ┌────────────────┐  │
 │  │ GOMINING  │  │  Digital  │  │ GoMining  │  │  Wallet &      │  │
 │  │  Token    │◄─┤  Miners   ├─►│   Card    │◄─┤  Simple Earn   │  │
-│  │           │  │  (NFTs)   │  │  (Visa)   │  │                │  │
+│  │           │  │  (Miners) │  │  (Visa)   │  │                │  │
 │  └─────┬─────┘  └─────┬─────┘  └─────┬─────┘  └───────┬────────┘  │
 │        │              │              │                 │            │
 │        └──────────────┼──────────────┼─────────────────┘            │
@@ -148,7 +156,7 @@ console.log(manifest.skills); // Array of all skills with metadata
 | Main Website | https://gomining.com/ |
 | Academy | https://academy.gomining.com/ |
 | Token FAQ | https://help.token.gomining.com/ |
-| NFT FAQ | https://help.nft.gomining.com/ |
+| Miners FAQ | https://help.nft.gomining.com/ |
 | Cards FAQ | https://help.cards.gomining.com/ |
 | CoinMarketCap | https://coinmarketcap.com/currencies/gomining-token/ |
 

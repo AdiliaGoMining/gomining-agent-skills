@@ -23,7 +23,7 @@ You can buy a miner in your personal account by creating your own miner or by pu
 5. Pay with any payment method you like: by crypto or fiat. The list of payment methods varies by region.
 6. Done! You'll receive your first BTC reward in just 24 hours
 
-For in-app purchases via Apple, Google, and Ecommpay: We need up to 90 days to verify your purchase. Until then, you'll not be able to list your miner for sale or withdraw (mint) it from your virtual wallet to another crypto wallet.
+For in-app purchases via Apple Pay, Google Pay, or card: We need up to 90 days to verify your purchase. Until then, you'll not be able to list your miner for sale or withdraw (mint) it from your virtual wallet to another crypto wallet.
 
 #### Buy on the marketplace
 
@@ -82,7 +82,7 @@ Before that:
 
 ### Where can I sell miners?
 
-You can sell miners in your GoMining personal account in the **Selling** section. They will be listed on our Marketplace. You can also sell the miners on any public NFT marketplace, such as OpenSea.
+You can sell miners in your GoMining personal account in the **Selling** section. They will be listed on our Marketplace. You can also sell the miners on any public marketplace, such as OpenSea.
 
 ### Where can I find my miners?
 

@@ -23,16 +23,36 @@
     {
       "name": "gomining-miners",
       "path": "skills/gomining-miners",
-      "description": "Digital Miners NFTs — mining modes, Miner Wars, upgrades, maintenance, computing power, buying and selling",
-      "tags": ["miners", "mining", "nft", "miner-wars", "hashrate"],
+      "description": "Digital Miners NFTs — Mining Mode (passive BTC), upgrades, maintenance, computing power, buying and selling",
+      "tags": ["miners", "mining", "nft", "hashrate"],
       "triggers": [
         "digital miners",
         "mining mode",
-        "miner wars",
         "miner purchase",
         "mining rewards",
         "maintenance cost",
         "computing power"
+      ]
+    },
+    {
+      "name": "gomining-miner-wars",
+      "path": "skills/gomining-miner-wars",
+      "description": "Miner Wars game — clans, leagues, spells, weekly cycles, BTC + GOMINING rewards, Spell Bot, anti-cheat rules",
+      "tags": ["miner-wars", "game", "clans", "spells", "leagues", "rewards"],
+      "triggers": [
+        "miner wars",
+        "clan",
+        "league",
+        "spell",
+        "power-up",
+        "spell bot",
+        "odyssey",
+        "eclipse",
+        "horizon",
+        "dune",
+        "pps",
+        "round multiplier",
+        "miner wars rewards"
       ]
     },
     {
@@ -48,20 +68,6 @@
         "nft marketplace",
         "gomining merch",
         "avatar races"
-      ]
-    },
-    {
-      "name": "gomining-nft",
-      "path": "skills/gomining-nft",
-      "description": "Digital Miners NFTs, blockchains (ETH/BSC/SOL/TON), rarity attributes, mining rewards, earning modes",
-      "tags": ["nft", "digital miners", "mining", "blockchain", "rewards", "rarity"],
-      "triggers": [
-        "digital miners",
-        "nft mining",
-        "mining rewards",
-        "blockchain networks",
-        "rarity attributes",
-        "miner wars"
       ]
     },
     {
